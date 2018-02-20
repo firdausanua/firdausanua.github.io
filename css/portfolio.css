@@ -12,7 +12,7 @@ body {
 }
 
 .bg{
-    background-image: url("./img/background.jpg");
+    background-image: url("/img/background.jpg");
     height: 100%; 
     background-attachment: fixed;
     background-position: center;
@@ -26,7 +26,7 @@ body {
 
 .main-section {
     background: rgb(200, 54, 54); /* This is for ie8 and below */
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0);
     color: white;
     margin-top: 70px;
     margin-left: 180px;
@@ -61,7 +61,7 @@ body {
 /* second section */
 
 .bg2{
-    background-image: url("./img/bg3.jpg");
+    background-image: url("/img/bg3.jpg");
     height: 100%; 
     width: 60%;
     background-position: center;
@@ -199,7 +199,7 @@ body {
 /* third section */
 /*footer*/
 .bg4 {
-    background-image: url(./img/background.jpg);
+    background-image: url(/img/background.jpg);
     background-attachment: fixed;
      background-position: center;
     background-repeat: no-repeat;
