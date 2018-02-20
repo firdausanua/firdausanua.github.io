@@ -12,7 +12,7 @@ body {
 }
 
 .bg{
-    background-image: url("/img/background.jpg");
+    background-image: url("img/background.jpg");
     height: 100%; 
     background-attachment: fixed;
     background-position: center;
@@ -61,7 +61,7 @@ body {
 /* second section */
 
 .bg2{
-    background-image: url("/img/bg3.jpg");
+    background-image: url("img/bg3.jpg");
     height: 100%; 
     width: 60%;
     background-position: center;
@@ -199,7 +199,7 @@ body {
 /* third section */
 /*footer*/
 .bg4 {
-    background-image: url(/img/background.jpg);
+    background-image: url(img/background.jpg);
     background-attachment: fixed;
      background-position: center;
     background-repeat: no-repeat;
@@ -252,6 +252,6 @@ footer{
 @media only screen and (max-width: 991px) {
     .main-section {
     margin-left: 0;
-    margin-right: 0!important;
+    margin-right: 0;
     }
 }
