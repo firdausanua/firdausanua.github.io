@@ -208,6 +208,17 @@ body {
     text-decoration: none;
 }
 /* third section */
+/*fourth section*/
+
+.bg5 {
+    background-color: #196719;
+    height: 100%; 
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*fourth section*/
 /*footer*/
 .bg4 {
     background-image: url("../img/background.jpg");
@@ -255,7 +266,7 @@ footer{
 }
 
 @media only screen and (max-width: 1000px) {
-    .bg3 {
+    .bg3, .bg5 {
         height: auto;
     }
 }
