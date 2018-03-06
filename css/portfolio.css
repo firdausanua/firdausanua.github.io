@@ -211,7 +211,7 @@ body {
 /*fourth section*/
 
 .bg5 {
-    background-color: #196719;
+    background-color: #196719 !important;
     height: 100%; 
     width: 100%;
     background-position: center;
