@@ -174,6 +174,17 @@ body {
   padding:15px;
   text-align:left;
 }
+.card-content p {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.card-content p:hover{
+  overflow: visible;
+  white-space: normal; 
+  height:auto;  
+}
 .card-title {
   margin-top:0px;
   font-weight: 700;
